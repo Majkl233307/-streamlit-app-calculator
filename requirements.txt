@@ -1,4 +1,6 @@
-def safe_input(prompt):
+streamlit==1.13.0
+pandas==1.4.0
+
     user_input = input(prompt)
     user_input = user_input.replace(",", ".")
     try:
